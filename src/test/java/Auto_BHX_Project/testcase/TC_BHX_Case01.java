@@ -3,6 +3,7 @@ package Auto_BHX_Project.testcase;
 import Auto_BHX_Project.base.Setup;
 import Auto_BHX_Project.page.Page_BHX_TrangChu;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -32,5 +33,6 @@ public class TC_BHX_Case01 extends Setup {
         bhx_setup = new Setup();
         bhx_setup.PrintWord("Sử dụng method ở setup");
     }
+
 
 }
