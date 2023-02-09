@@ -1,7 +1,7 @@
-package DemoTT.testcase;
+package Auto_BHX_Project.testcase;
 
-import DemoTT.base.Setup;
-import DemoTT.page.Page_BHX_TrangChu;
+import Auto_BHX_Project.base.Setup;
+import Auto_BHX_Project.page.Page_BHX_TrangChu;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

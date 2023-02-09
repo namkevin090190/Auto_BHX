@@ -6,7 +6,7 @@
                value="https://www.bachhoaxanh.com"/>
     <test name="Test">
         <classes>
-            <class name="DemoTT.testcase.TC_BHX_Case01">
+            <class name="Auto_BHX_Project.testcase.TC_BHX_Case01">
                 <methods>
                     <include name="ClickBoxSearch"/>
                 </methods>
