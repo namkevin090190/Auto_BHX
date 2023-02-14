@@ -13,6 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Auto_BHX" target="1.8" />
       <module name="DemoTT" target="1.8" />
     </bytecodeTargetLevel>
   </component>
