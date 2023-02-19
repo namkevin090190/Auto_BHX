@@ -48,6 +48,13 @@
             <version>1.6.2</version>
         </dependency>
 
+        <!-- https://search.maven.org/remotecontent?filepath=javax/mail/mail/1.4.7/mail-1.4.7.jar -->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+
 
 
     </dependencies>
