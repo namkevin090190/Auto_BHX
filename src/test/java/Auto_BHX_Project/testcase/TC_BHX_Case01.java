@@ -32,6 +32,7 @@ public class TC_BHX_Case01 extends Setup {
         // Sử dụng method ở setup
         bhx_setup = new Setup();
         bhx_setup.PrintWord("Sử dụng method ở setup");
+        bhx_setup.PrintWord("Chạy thành công Click Box Search");
     }
 
 
