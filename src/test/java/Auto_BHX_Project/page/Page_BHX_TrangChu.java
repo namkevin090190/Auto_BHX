@@ -10,13 +10,14 @@ public class Page_BHX_TrangChu {
     private WebDriver driver;
 
     private By box_Search =  By.cssSelector("#text-search");
+    private By text_Login_vne = By.cssSelector("a[title='Đăng nhập']");
 
     public Page_BHX_TrangChu(WebDriver driver) {
         this.driver = driver;
     }
 
     public void ClickBoxSearch() {
-        WebElement box_Search_Ele = driver.findElement(box_Search);
+        WebElement box_Search_Ele = driver.findElement(text_Login_vne);
         if (box_Search_Ele.isDisplayed()) {
             box_Search_Ele.click();
         } else {
